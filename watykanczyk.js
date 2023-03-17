@@ -7,9 +7,9 @@ function startMusic() {
 function enterFullscreen() {
   if (!document.fullscreenElement) {
     document.documentElement.requestFullscreen().then(() => {
-      console.log('Tryb peĹnoekranowy wĹÄczony');
+      console.log('siema');
     }).catch((err) => {
-      console.error(`BĹÄd podczas zmiany trybu peĹnoekranowego: ${err.message}`);
+      console.error(`dfsf podczas zmiany trybavdfs: ${err.message}`);
     });
   }
 }
@@ -33,7 +33,7 @@ function preventExit() {
 }
 
 document.addEventListener('fullscreenerror', function(event) {
-  console.error(`BĹÄd podczas zmiany trybu peĹnoekranowego: ${event.message}`);
+  console.error(`c dsjhj podczas zmiany trybu pfsdfrdsnoekranowego: ${event.message}`);
 });
 
 document.addEventListener('keydown', function(event) {
